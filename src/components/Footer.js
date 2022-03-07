@@ -4,19 +4,18 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
-      <div className="socialMedia">
+    <div className="w-full h-52 bg-yellow-900 flex justify-center items-center flex-col pt-3">
+      <div className="text-[#FBF8F1] m-5 text-3xl cursor-pointer">
         <FacebookIcon />
         <InstagramIcon />
         <TwitterIcon />
         <LinkedInIcon />
         <YouTubeIcon />
       </div>
-      <p>&copy; badaborgir.com</p>
+      <div className="text-[#FBF8F1]">&copy; badaborgir.com</div>
     </div>
   );
 }
